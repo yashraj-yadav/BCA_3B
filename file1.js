@@ -100,25 +100,25 @@ document.write("Hello from JS</br>");
 // }
 
 //Simple function
-function xyz () {
-    document.write("Happy Happy Happy </br>")
-}
-xyz()
+// function xyz () {
+//     document.write("Happy Happy Happy </br>")
+// }
+// xyz()
 
-//Function Expression
+// //Function Expression
 
-let a = function() {
-    document.write("Hello Hii <br>")
-}
-a()
+// let a = function() {
+//     document.write("Hello Hii <br>")
+// }
+// a()
 
-//arrow function
-let msg = () => {
-    document.write("Hola <br>")
-}
-msg()
+// //arrow function
+// let msg = () => {
+//     document.write("Hola <br>")
+// }
+// msg()
 
-//iife function
-(function() {
-    document.write("This is IIFE function")
-}());
+// //iife function
+// (function() {
+//     document.write("This is IIFE function <br>")
+// }());

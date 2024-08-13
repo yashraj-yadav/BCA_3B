@@ -28,39 +28,39 @@ document.write("Hello from JS</br>");
 
 // const x=12;
 
-let a=10;
-document.write(a,"<br>")
-let b=5;
-document.write(b,"<br>")
-let sum=a+b;
-document.write(sum,"<br>")
-let difference = a-b;
-document.write(difference,"<br>")
-let product=a*b;
-document.write(product,"<br>")
-let quotient=a/b;
-document.write(quotient,"<br>")
-let remainder= a%b;
-document.write(remainder,"<br>")
-let isEqual=(a==b);
-document.write(isEqual,"<br>")
-let isNotEqual=(a!=b);
-document.write(isNotEqual,"<br>")
-let isGreater=(a>b);
-document.write(isGreater,"<br>")
-let logicalAnd=(a>b && b<10);
-document.write(logicalAnd,"<br>")
+// let a=10;
+// document.write(a,"<br>")
+// let b=5;
+// document.write(b,"<br>")
+// let sum=a+b;
+// document.write(sum,"<br>")
+// let difference = a-b;
+// document.write(difference,"<br>")
+// let product=a*b;
+// document.write(product,"<br>")
+// let quotient=a/b;
+// document.write(quotient,"<br>")
+// let remainder= a%b;
+// document.write(remainder,"<br>")
+// let isEqual=(a==b);
+// document.write(isEqual,"<br>")
+// let isNotEqual=(a!=b);
+// document.write(isNotEqual,"<br>")
+// let isGreater=(a>b);
+// document.write(isGreater,"<br>")
+// let logicalAnd=(a>b && b<10);
+// document.write(logicalAnd,"<br>")
 
-let fname="John";
-document.write(`Hello ${fname} <br>`)
+// let fname="John";
+// document.write(`Hello ${fname} <br>`)
 
-let isStudent=false;
-document.write(`student ${isStudent ? "yes" : "no"} <br>`)
-
-
+// let isStudent=false;
+// document.write(`student ${isStudent ? "yes" : "no"} <br>`)
 
 
-let age=25;
+
+
+// let age=25;
 // if (age>=18) {
 //     document.write("You are eligible to vote")
     
@@ -70,6 +70,55 @@ let age=25;
 //     document.write("You are not eligible to vote")
 // }
 
-document.write(age>=18 ? "you r eligible" : "not eligible")
+// document.write(age>=18 ? "you r eligible" : "not eligible")
 
+// num=prompt("Enter a number")
+// if (num>0) {
+//     document.write("Number is positive")
+    
+// } 
+// else if(num<0) {
+//     document.write("number is negative")
+// }
 
+// else {
+//     document.write("Number is zero")
+    
+// }
+
+// let fruit=prompt("Enter")
+
+// switch (fruit) {
+//     case "apple":
+//         console.log("fruit is apple");
+//         break;
+//     case "banana":
+//         console.log("Fruit is banana");
+//         break;
+//     default:
+//         console.log("unknown fruit");
+// }
+
+//Simple function
+function xyz () {
+    document.write("Happy Happy Happy </br>")
+}
+xyz()
+
+//Function Expression
+
+let a = function() {
+    document.write("Hello Hii <br>")
+}
+a()
+
+//arrow function
+let msg = () => {
+    document.write("Hola <br>")
+}
+msg()
+
+//iife function
+(function() {
+    document.write("This is IIFE function")
+}());
